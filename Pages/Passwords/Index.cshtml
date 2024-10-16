@@ -1,0 +1,21 @@
+@page
+@model IndexModel
+
+<form>
+    <div class="form-group">
+        <label for="length">Length</label>
+        <input type="text" name="Password.Length">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div>
+    Length:
+    @Model.Password.Length
+</div>
+
+<div>
+    Value:
+    @Model.Password.Value
+</div>
+
